@@ -21,5 +21,4 @@ jobs:
           image-ref: demo-app:${{ github.sha }}
           format: table
           severity: CRITICAL,HIGH
-          ignore-unfixed: true
           exit-code: "1"
